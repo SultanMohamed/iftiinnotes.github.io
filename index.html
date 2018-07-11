@@ -1,0 +1,960 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+    crossorigin="anonymous">
+    
+    <!-- CSS Styles -->
+    <link rel="stylesheet" type="text/css" href="Styles.css">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville:400,400i,700|Raleway:400,400i,600,700,800" rel="stylesheet">
+
+  <title>Buttons</title>
+</head>
+
+<body>
+    <!-- ===== **** ===== **** ===== ===== **** ===== -->
+                    <!-- NAVBAR -->
+    <!-- ===== **** ===== **** ===== ===== **** ===== -->
+    
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <!-- Brand -->
+            <a class="navbar-brand" href="Notes.html">Iftiin Notes</a>
+            
+            <!-- Toggler/ Collapsible Button -->
+            <!-- To create a collapsible navigation bar, use a button with class="navbar-toggler", data-toggle="collapse" and data-target="#thetarget".  -->
+            <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#thetarget">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <!-- Navbar Links -->
+            <!-- Then wrap the navbar content (links, etc) inside a div element with class="collapse navbar-collapse", followed by an id that matches the data-target of the button: "thetarget". -->
+            <div class="collapse navbar-collapse" id="thetarget">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="Notes.html">Home</a>
+                    </li>
+                    
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    
+                    <!-- Bootstrap Notes -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">Notes</a>
+                        
+                        <div class="dropdown-menu">
+                            <div class="dropdown-header">Bootstrap Notes</div>
+                            
+                            <a class="dropdown-item" href="Buttons.html"><i class="fa fa-tasks fa-lg mr-2"></i>Buttons</a>
+                            
+                            <a class="dropdown-item" href="Lists.html"><i class="fa fa-list fa-lg mr-2"></i>Lists</a>
+                            
+                            <a class="dropdown-item" href="Forms.html"><i class="fa fa-wpforms fa-lg mr-2"></i>Forms</a>
+                            
+                            <a class="dropdown-item" href="Alerts_and_Progress_Bars.html"><i class="fa fa-exclamation-triangle fa-lg mr-2"></i>Alerts &amp; PB</a>
+                            
+                            <a class="dropdown-item" href="Tables_and_Pagination.html"><i class="fa fa-table fa-lg mr-2"></i>Tables &amp; Pg</a>
+                        </div>
+                    </li>
+                    
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Services</a>
+                    </li>
+                    
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                    
+            <!-- Dropdown -->
+            <!-- The .dropdown class indicates a dropdown menu.
+
+To open the dropdown menu, use a button or a link with a class of .dropdown-toggle and the data-toggle="dropdown" attribute. -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">More</a>
+                        
+             <!-- Add the .dropdown-menu class to a <div> element to actually build the dropdown menu. 
+
+Then add the .dropdown-item class to each element (links or buttons) inside the dropdown menu. -->
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#"><i class="fa fa-shopping-cart fa-lg mr-2"></i>Shop</a>
+                            
+                            <a class="dropdown-item" href="#"><i class="fa fa-camera fa-lg mr-2"></i>Photography</a>
+                            
+                            <a class="dropdown-item" href="#"><i class="fa fa-paint-brush fa-lg mr-2"></i>Design</a>
+                            
+                            <a class="dropdown-item" href="#"><i class="fa fa-heartbeat fa-lg mr-2"></i>Health &amp; Fitness</a>
+                            
+                            <a class="dropdown-item" href="#"><i class="fa fa-music fa-lg mr-2"></i>Music</a>
+                            
+                            <a class="dropdown-item" href="#"><i class="fa fa-gamepad fa-lg mr-2"></i>Games</a>
+                            
+                             <a class="dropdown-item" href="#"><i class="fa fa-futbol-o fa-lg mr-2"></i>Sports</a>
+                            
+                            <a class="dropdown-item" href="#"><i class="fa fa-gift fa-lg mr-2"></i>Gift</a>
+                            
+            <!-- Dropdown Divider -->
+            <!-- The .dropdown-divider class is used to separate links inside the dropdown menu with a thin horizontal border: -->
+                            <div class="dropdown-divider"></div>
+                            
+                            <a class="dropdown-item" href="#"><i class="fa fa-bell fa-lg mr-2"></i>Notifications</a>
+                            
+                            <a class="dropdown-item" href="#"><i class="fa fa-sign-out fa-lg mr-2"></i>Log Out</a>
+                            
+                            <a class="dropdown-item" href="#"><i class="fa fa-user fa-lg mr-2"></i>My Account</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    
+    <!-- ===== **** ===== **** ===== ===== **** ===== -->
+                    <!-- JUMBOTRON -->
+    <!-- ===== **** ===== **** ===== ===== **** ===== -->
+    
+    <div class="jumbotron container-fluid mt-4 jumbo">
+        <div class="container">
+            <h1 class="display-4">Buttons and Button Groups</h1>
+            <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+            <hr class="my-4">
+            <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+            <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+        </div>
+    </div>
+    
+    <div class="container">
+        <div class="row">
+            <div class="col-md-7 highlight">
+                <h1 class="display-4">Button Groups</h1>
+                
+    <!-- Use a <div> element with class .btn-group to create a button group: -->
+                <div class="btn-group mb-4">
+                    <button class="btn btn-outline-dark btn-lg" type="button"><i class="fa fa-play fa-lg"></i></button>
+                    
+                    <button class="btn btn-outline-dark btn-lg" type="button"><i class="fa fa-pause fa-lg"></i></button>
+                    
+                    <button class="btn btn-outline-dark btn-lg" type="button"><i class="fa fa-stop fa-lg"></i></button>
+                    
+                    <button class="btn btn-outline-dark btn-lg" type="button"><i class="fa fa-backward fa-lg"></i></button>
+                </div>
+            </div>
+            
+            <div class="col-md-5 highlight bl">
+                <p class="lead lead2">Use a &lt;div> element with class <span class="text-danger">.btn-group</span>, followed by list of standard buttons to create a button group:</p>
+            </div>
+        </div>
+        
+        <br>
+        <br>
+        
+    <!-- ===== **** ===== **** ===== ===== **** ===== -->
+                    <!-- VERTICAL GROUPS -->
+    <!-- ===== **** ===== **** ===== ===== **** ===== -->
+        
+        <div class="row">
+            <div class="col-md-7 highlight">
+                <h1 class="display-4">Vertical Groups</h1>
+                
+    <!-- Use a <div> element with class .btn-group-vertical to create a vertical button group: -->
+                <div class="btn-group-vertical mb-4">
+                    <button class="btn btn-outline-primary btn-lg" type="button"><i class="fa fa-facebook fa-lg"></i></button>
+                    
+                    <button class="btn btn-outline-primary btn-lg" type="button"><i class="fa fa-twitter fa-lg"></i></button>
+                    
+                    <button class="btn btn-outline-primary btn-lg" type="button"><i class="fa fa-google-plus fa-lg"></i></button>
+                    
+                    <button class="btn btn-outline-primary btn-lg" type="button"><i class="fa fa-share-square-o fa-lg"></i></button>
+                </div>
+            </div>
+            
+            <div class="col-md-5 highlight bl">
+                <p class="lead lead2">Use a &lt;div> element with class <span class="text-danger">.btn-group-vertical</span> to create a vertical button group:</p>
+            </div>
+        </div>
+        
+        <br>
+        <br>
+        
+    <!-- ===== **** ===== **** ===== ===== **** ===== -->
+                    <!-- BUTTON TOOLBAR -->
+    <!-- ===== **** ===== **** ===== ===== **** ===== -->
+        
+        <div class="row">
+            <div class="col-md-7 highlight">
+                <h1 class="display-4">Button Toolbar</h1>
+                
+    <!-- To create a button toolbar, start with a div with a class="btn-toolbar, followed by another div/s with a class="btn-group" -->
+                <div class="btn-toolbar mb-4">
+                    
+                    <!-- Button Group 1 -->
+                    <div class="btn-group mr-3">
+                        <button class="btn btn-outline-dark" type="button">Prev</button>
+                        
+                        <button class="btn btn-outline-dark" type="button">1</button>
+                        
+                        <button class="btn btn-outline-dark" type="button">2</button>
+                        
+                        <button class="btn btn-outline-dark" type="button">3</button>
+                        
+                        <button class="btn btn-outline-dark" type="button">4</button>
+                        
+                        <button class="btn btn-outline-dark" type="button">5</button>
+                        
+                        <button class="btn btn-outline-dark" type="button">Next</button>
+                    </div>
+                    
+                    <!-- Button Group 2 -->
+                    <div class="btn-group">
+                        <button class="btn btn-outline-dark" type="button">More</button>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-md-5 highlight bl">
+                <p class="lead lead2">To create a button toolbar, start with a &lt;div> element with a class <span class="text-danger">btn-toolbar</span>, followed by another div/s with a class <span class="text-danger">btn-group</span>.</p>
+            </div>
+        </div>
+        
+        
+        <br>
+        <br>
+        
+    <!-- ===== **** ===== **** ===== ===== **** ===== -->
+                    <!-- BUTTON DROPDOWN -->
+    <!-- ===== **** ===== **** ===== ===== **** ===== -->
+        
+        <div class="row">
+            <div class="col-md-7 highlight">
+                <h1 class="display-4">Dropdown</h1>
+                
+                <div class="dropdown mb-4">
+                    <button class="btn btn-outline-dark btn-lg dropdown-toggle" data-toggle="dropdown" type="button">Categories</button>
+                    
+    <!-- Dropdown Menu -->
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="#"><i class="fa fa-shopping-cart fa-lg mr-2"></i>Shop</a>
+                        
+                        <a class="dropdown-item" href="#"><i class="fa fa-camera fa-lg mr-2"></i>Photography</a>
+                            
+                        <a class="dropdown-item" href="#"><i class="fa fa-paint-brush fa-lg mr-2"></i>Design</a>
+                            
+                        <a class="dropdown-item" href="#"><i class="fa fa-heartbeat fa-lg mr-2"></i>Health &amp; Fitness</a>
+                            
+                        <a class="dropdown-item" href="#"><i class="fa fa-music fa-lg mr-2"></i>Music</a>
+                            
+                        <a class="dropdown-item" href="#"><i class="fa fa-gamepad fa-lg mr-2"></i>Games</a>
+                            
+                        <a class="dropdown-item" href="#"><i class="fa fa-futbol-o fa-lg mr-2"></i>Sports</a>
+                            
+                        <a class="dropdown-item" href="#"><i class="fa fa-gift fa-lg mr-2"></i>Gift</a>
+                        
+    <!-- Dropdown Divider -->
+                        <div class="dropdown-divider"></div>
+                            
+                        <a class="dropdown-item" href="#"><i class="fa fa-bell fa-lg mr-2"></i>Notifications</a>
+                            
+                        <a class="dropdown-item" href="#"><i class="fa fa-sign-out fa-lg mr-2"></i>Log Out</a>
+                            
+                        <a class="dropdown-item" href="#"><i class="fa fa-user fa-lg mr-2"></i>My Account</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-md-5 highlight bl">
+                <p class="lead lead2">The <span class="text-danger">.dropdown</span> class indicates a dropdown menu. (Use a &lt;div> element with a class of <span class="text-danger">.dropdown</span>). <br><br>
+
+                To open the dropdown menu, use a button or a link with a class of <span class="text-danger">.dropdown-toggle</span> and the <span class="text-danger">data-toggle="dropdown"</span> attribute. <br><br>
+                    
+                Add the <span class="text-danger">.dropdown-menu</span> class to a &lt;div> element to actually build the dropdown menu. <br><br>
+                    
+                Then add the <span class="text-danger">.dropdown-item</span> class to each element (links or buttons) inside the dropdown menu.</p>
+            </div>
+        </div>
+        
+        <br>
+        <br>
+        
+    <!-- ===== **** ===== **** ===== ===== **** ===== -->
+                <!-- GROUPED BUTTON DROPDOWN -->
+    <!-- ===== **** ===== **** ===== ===== **** ===== -->
+        
+        <div class="row">
+            <div class="col-md-7 highlight">
+                <h1 class="display-4">Grouped D-dwn</h1>
+                
+                <div class="btn-group mb-4">
+                    <button class="btn btn-outline-secondary btn-lg" type="button">Please</button>
+                    
+                    <button class="btn btn-outline-secondary btn-lg dropdown-toggle" data-toggle="dropdown" type="button">Share</button>
+                    
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="#"><i class="fa fa-facebook fa-lg mr-2"></i>Facebook</a>
+                        
+                        <a class="dropdown-item" href="#"><i class="fa fa-twitter fa-lg mr-2"></i>Twitter</a>
+                        
+                        <a class="dropdown-item" href="#"><i class="fa fa-google-plus fa-lg mr-2"></i>Google+</a>
+                        
+                        <a class="dropdown-item" href="#"><i class="fa fa-instagram fa-lg mr-2"></i>Instagram</a>
+                        
+                        <a class="dropdown-item" href="#"><i class="fa fa-snapchat-ghost fa-lg mr-2"></i>Snapchat</a>
+                        
+                        <a class="dropdown-item" href="#"><i class="fa fa-share-square-o fa-lg mr-2"></i>Share</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-md-5 highlight bl">
+                <p class="lead lead2">To create a grouped button with dropdown, start with a &lt;div> element with a class <span class="text-danger">btn-group</span>, followed by a normal button/s then the actuall button dropdown.</p>
+            </div>
+        </div>
+        
+        <h1 class="display-4">Stacked Forms</h1>
+        <div class="row">
+            <div class="col-md-7 highlight">
+                <form class="mb-4" method="post">
+                    
+                    <!-- Group 1 -->
+                    <div class="form-group">
+                        <label class="lead lead2" for="name">Name</label>
+                        <input class="form-control form-control-lg mb-2" type="text" id="name" placeholder="First Name">
+                        
+                        <input class="form-control form-control-lg" type="text" id="name" placeholder="Last Name">
+                    </div>
+                    
+                    <!-- Group 2 -->
+                    <div class="form-group">
+                        <label class="lead lead2">Gender</label>
+                        <select class="form-control form-control-lg">
+                            <option>Male</option>
+                            <option>Female</option>
+                        </select>
+                    </div>
+                    
+                    <!-- Group 3 -->
+                    <div class="form-group">
+                        <label class="lead lead2" for="email">Email Address</label>
+                        <input class="form-control form-control-lg" type="email" id="email" placeholder="someone@example.com">
+                        <small class="form-text text-muted">Your email will never be shared</small>
+                    </div>
+                    
+                    <!-- Group 4 -->
+                    <div class="form-group">
+                        <label class="lead lead2" for="tel">Phone</label>
+                        <input class="form-control form-control-lg" type="tel" id="tel" placeholder="(206) 856-5619">
+                        <small class="form-text text-muted">Your cell phone number will be used to contact you.</small>
+                    </div>
+                    
+                    <!-- Group 5 -->
+                    <div class="form-group">
+                        <label class="lead lead2" for="pw">Password</label>
+                        <input class="form-control form-control-lg" type="password" id="pw">
+                    </div>
+                    
+                    <!-- Group 6 -->
+                    <div class="form-group">
+                        <label class="lead lead2" for="msg">Message</label>
+                        <textarea class="form-control form-control-lg" id="msg" rows="4" placeholder="Your Message..."></textarea>
+                    </div>
+                    
+                    <!-- Group 7 Custom File -->
+                    <div class="custom-file mb-3">
+                        <label class="custom-file-label" for="file">Upload Resume</label>
+                        <input class="custom-file-input" type="file" id="file">
+                    </div>
+                    
+                    <button class="btn btn-outline-primary btn-lg btn-block" type="submit">Submit</button>
+                </form>
+            </div>
+            
+            <div class="col-md-5 highlight bl">
+                <p class="lead lead2">All textual &lt;input>, &lt;textarea>, and &lt;select> elements with class <span class="text-danger">.form-control</span> have a width of 100%. <br><br>
+                    
+                The following example creates a stacked form with input fields and a submit button.
+                    <br><br>
+                Add a wrapper element (&lt;div>) with <span class="text-danger">.form-group</span>, around each form control, to ensure proper margins: <br><br>
+                    
+                To add a caption for the email or password, use <span class="text-danger">&lt;small class="form-text text-muted">Your email will never be shared &lt;/small></span>
+                
+                    <br><br>
+                For the <span class="text-danger">input type"file"</span>, add a wrapper element (&lt;div>) with <span class="text-danger">.custom-file</span>. Then <span class="text-danger">.custom-file-label</span> and <span class="text-danger">.custom-file-input</span> to style a file field with full-width:</p>
+            </div>
+        </div>
+        
+        <br>
+        <br>
+        
+    <!-- ===== **** ===== **** ===== ===== **** ===== -->
+                    <!-- INLINE FORMS -->
+    <!-- ===== **** ===== **** ===== ===== **** ===== -->
+        
+    <h1 class="display-4">Inline Forms</h1>
+        <div>
+            <form class="form-inline my-4">
+                <input class="form-control form-control-lg mb-2 mr-3" type="text" placeholder="First Name">
+
+                <input class="form-control form-control-lg mb-2 mr-3" type="text" placeholder="First Name">
+
+                <button class="btn btn-outline-success btn-lg mb-2" type="submit">Log In</button>
+            </form>
+
+            <p class="lead lead2">Add class <span class="text-danger">.form-inline</span> to the &lt;form> element. Then input fields with regular class of <span class="text-danger">.form-control</span>. Lastly a submit button for the log in.</p>
+        </div>
+        
+        <br>
+        <br>
+        
+    <!-- ===== **** ===== **** ===== ===== **** ===== -->
+                    <!-- FORM ROW -->
+    <!-- ===== **** ===== **** ===== ===== **** ===== -->
+        
+    <h1 class="display-4">Form Row</h1>
+        <form>
+            <div class="form-row">
+                <div class="col">
+                    <input class="form-control form-control-lg" type="text" placeholder="First Name">
+                </div>
+                
+                <div class="col">
+                    <input class="form-control form-control-lg" type="text" placeholder="Last Name">
+                </div>
+            </div>
+            
+        <br>
+            <p class="lead lead2">Add a wrapper element inside the form with <span class="text-danger">.form-row</span>, followed by another div/s with <span class="text-danger">.col</span> and input fileds with <span class="text-danger">.form-control</span> inside each <span class="text-danger">.col</span>;</p>
+        </form>
+        
+        <br>
+        <br>
+        
+    <!-- ===== **** ===== **** ===== ===== **** ===== -->
+                <!-- FORM INPUTS / Addons -->
+    <!-- ===== **** ===== **** ===== ===== **** ===== -->
+        
+        <h1 class="display-4">Input Groups / Addons</h1>
+        <div class="row">
+            <div class="col-md-7 highlight">
+                <form class="my-4">
+                    
+                    <!-- Prepend-->
+                    <div class="input-group">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text"><i class="fa fa-envelope fa-lg"></i></span>
+                        </div>
+                        
+                        <input class="form-control form-control-lg" type="text" placeholder="Username">
+                    </div>
+                    
+                    <br>
+                    
+                    <!-- Append 
+                Input comes first-->
+                    <div class="input-group">
+                        <input class="form-control form-control-lg" type="text" placeholder="Username">
+                        
+                        <div class="input-group-append">
+                            <span class="input-group-text">@something.com</span>
+                        </div>
+                    </div>
+                    
+                    <br>
+                    
+                    <!-- Both Prepend and Append -->
+                    <div class="input-group">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text">$</span>
+                        </div>
+                        
+                        <input class="form-control form-control-lg" type="text" placeholder="Amount in dollars">
+                        
+                        <div class="input-group-append">
+                            <span class="input-group-text">.00</span>
+                        </div>
+                    </div>
+                    
+                    <br>
+                    
+                    <!-- Button Addons -->
+                    <div class="input-group">
+                        <input class="form-control form-control-lg" type="text" placeholder="Search...">
+                        
+                        <div class="input-group-prepend">
+                            <button class="btn btn-primary btn-lg"><i class="fa fa-search fa-lg"></i></button>
+                        </div>
+                    </div>
+                </form>
+                
+                <!-- Summary -->
+                <p data-height="320" data-theme-id="0" data-slug-hash="jKgQxz" data-default-tab="html,result" data-user="SultanMohamed" data-embed-version="2" data-pen-title="jKgQxz" class="codepen">See the Pen <a href="https://codepen.io/SultanMohamed/pen/jKgQxz/">jKgQxz</a> by Mohamed (<a href="https://codepen.io/SultanMohamed">@SultanMohamed</a>) on <a href="https://codepen.io">CodePen</a>.</p>
+<script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+            </div>
+            
+            <div class="col-md-5 highlight bl">
+                <p class="lead lead2">Use a wrapper element with class <span class="text-danger">.input-group</span> to enhance an input by adding an icon, text or a button in front or behind the input field as a "help text". <br><br>
+                
+                Use another wrapper element with class <span class="text-danger">.input-group-prepend</span> to add the help text/icon in front of the input, and <span class="text-danger">.input-group-append</span> to add it behind the input. <br><br>
+                    
+                At last, add the <span class="text-danger">.input-group-text</span> class (could be a span, button or any other html element) to style the specified help text.
+                <br><br>
+                
+                The <span class="text-danger">.input-group-text</span> should be inside the <span class="text-danger">.input-group-prepend| append</span>.
+                    <br><br>
+                    
+                <strong>Note:</strong> If appending, the input element should come before the <span class="text-danger">.input-group-append</span>.</p>
+            </div>
+        </div>
+        
+        <!-- Basic List Groups -->
+        <div class="row">
+            <div class="col-md-7 highlight">
+                <h1 class="display-4">Basic List</h1>
+                <ul class="list-group my-4">
+                    <li class="list-group-item list-group-item-primary">Item 1</li>
+                    
+                    <li class="list-group-item">Item 2</li>
+                    
+                    <li class="list-group-item list-group-item-warning active">Item 3</li>
+                    
+                    <li class="list-group-item">Item 4</li>
+                    
+                    <li class="list-group-item list-group-item-danger">Item 5</li>
+                </ul>
+            </div>
+            
+            <div class="col-md-5 highlight bl">
+                <p class="lead lead2">To create a basic list group, use an &lt;ul> element with class <span class="text-danger">.list-group</span> and &lt;li> elements with class <span class="text-danger">.list-group-item</span>:
+                    <br><br>
+                
+                Use the <span class="text-danger">.active</span> class to highlight the current item 3: <br><br>
+                    
+                Use the Contextual Classes <span class="text-danger">.list-group-item-success</span> class to style the items.</p>
+            </div>
+        </div>
+        
+        <br>
+        <br>
+        
+    <!-- List Group With Badges -->
+        <div class="row">
+            <div class="col-md-7 highlight">
+                <h1 class="display-4">Badge List</h1>
+                
+                <ul class="list-group lead lead2 my-4">
+                    <li class="list-group-item d-flex justify-content-between align-items-center">Apple
+                        <span class="badge badge-primary">440</span>
+                    </li>
+                    
+                    <li class="list-group-item d-flex justify-content-between align-items-center">Banana
+                        <span class="badge badge-primary">125</span>
+                    </li>
+                    
+                    <li class="list-group-item d-flex justify-content-between align-items-center">Mango
+                        <span class="badge badge-primary">350</span>
+                    </li>
+                    
+                    <li class="list-group-item d-flex justify-content-between align-items-center">Orange
+                        <span class="badge badge-primary">255</span>
+                    </li>
+                    
+                    <li class="list-group-item d-flex justify-content-between align-items-center">Kiwi
+                        <span class="badge badge-primary">55</span>
+                    </li>
+                    
+                    <li class="list-group-item d-flex justify-content-between align-items-center">Watermelon
+                        <span class="badge badge-primary">230</span>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="col-md-5 highlight bl">
+                
+                <p class="lead lead2">Use an &lt;ul> element with class <span class="text-danger">.list-group</span> and &lt;li> elements with class <span class="text-danger">.list-group-item</span>:
+                    <br><br>
+                
+                To create a badge, create a<span class="text-danger"> &lt;span></span> element with class <span class="text-danger">.badge</span> inside the list item: <br><br>
+                
+                Use the Contextual Classes <span class="text-danger">.badge-primary</span> class to style the badge. <br><br>
+                    
+                Use the <span class="text-danger">.d-flex justify-content-between align-items-center</span> classes to align the badge to the right.</p>
+            </div>
+        </div>
+        
+        <h1 class="display-4">Alerts</h1>
+        
+    <!-- ALERTS -->
+        <div class="row">
+            <div class="col-md-7 highlight">
+                <div class="alert alert-danger alert-dismissable my-4">
+                    <button class="close" data-dismiss="alert" type="button">
+                        <span>&times;</span>
+                    </button>
+                    
+                    <strong><i class="fa fa-exclamation-triangle fa-lg mr-2"></i>Danger!</strong> Are you sure you want to delete your account? You can not recover this account. <br><br>
+                    
+                    <button class="btn btn-danger ml-4 mr-4" type="button">Delete</button>
+                    
+                    <button class="btn btn-success ml-5" type="button">Cancel</button>
+                    <hr>
+                    
+                    <p class="mb-0">To avoid deleting your account, click cancel or click on the x to the right of the alert to close the window.</p>
+                </div>
+                
+    <!-- Success Message -->
+                <br>
+                <br>
+                
+                <div class="alert alert-success alert-dismissable">
+                    <button class="close" data-dismiss="alert" type="button">
+                        <span>&times;</span>
+                    </button>
+                    
+                    <h4><i class="fa fa-thumbs-o-up fa-lg mr-2"></i>Congratulations!</h4>
+                    <p>There was never a doubt in our hearts that you were destined for success. Congratulations on your achievement!</p>
+                    <hr>
+                    
+                    <p class="mb-0">Your will to push and never give up has brought you this far, you deserve this and more. Again, congratulations for a marvelous achievement!</p>
+                </div>
+                
+                <br>
+                <br>
+                
+    <!-- Warning Message -->
+                <div class="alert alert-warning alert-dismissable">
+                    <button class="close" data-dismiss="alert" type="button">
+                        <span>&times;</span>
+                    </button>
+                    
+                    <h4><i class="fa fa-exclamation-triangle mr-2"></i>Your computer is low on memory</h4>
+                    <p>To restore enough memory for programs to work correctly, save your files and then close or restart all open programs. <a class="alert-link" href="#">More</a></p>
+                </div>
+            </div>
+            
+            <div class="col-md-5 highlight bl">
+                <p class="lead lead2">Alerts are created with the <span class="text-danger">.alert</span> class, followed by one of the four contextual classes <span class="text-danger">.alert-success</span>, <span class="text-danger">.alert-info</span>, <span class="text-danger">.alert-warning</span> or <span class="text-danger">.alert-danger</span>:
+                
+                <br><br>
+                    
+                Add the <span class="text-danger">.alert-link</span> class to any links inside the alert box to create "matching colored links": <br><br>
+                    
+                <strong>Closing Alerts</strong><br>
+                To close the alert message, add a <span class="text-danger">.alert-dismissible </span>class to the alert container. Then add <span class="text-danger">class="close" </span> and <span class="text-danger">data-dismiss="alert"</span> to a link or a button element (when you click on this the alert box will disappear).</p>
+            </div>
+        </div>
+        
+        <br>
+        <br>
+        
+    <!-- PROGRESS BAR -->
+        <h1 class="display-4">Progress Bar</h1>
+        <div class="row">
+            <div class="col-md-7 highlight">
+                <div class="progress my-4">
+                    <div class="progress-bar" style="width: 25%">25%</div>
+                </div>
+                
+                <div class="progress bg-secondary my-4">
+                    <div class="progress-bar bg-danger" style="width: 50%">50%</div>
+                </div>
+                
+                <div class="progress bg-dark my-4">
+                    <div class="progress-bar progress-bar-striped bg-info" style="width: 75%">75%</div>
+                </div>
+                
+                <div class="progress bg-secondary my-4">
+                    <div class="progress-bar progress-bar-striped progress-bar-animated bg-success" style="width: 95%">95%</div>
+                </div>
+                
+                <div class="progress my-4" style="height: 25px;">
+                    <div class="progress-bar progress-bar-striped progress-bar-animated bg-primary lead lead2" style="width: 100%">100%</div>
+                </div>
+                
+    <!-- Progress Bar Stacked -->
+                <div class="progress" style="height: 35px;">
+                    <div class="progress-bar bg-danger lead lead2" style="width: 20%">Weak</div>
+                    
+                    <div class="progress-bar bg-warning lead lead2" style="width: 30%">Good</div>
+                    
+                    <div class="progress-bar bg-success lead lead2" style="width: 40%">Strong</div>
+                </div>
+                
+                <br>
+                <br>
+                
+                <p class="lead lead2">To create a default progress bar, add a <span class="text-danger">.progress</span> class to a container element and add the <span class="text-danger">.progress-bar</span> class to its child element. Use the CSS width property to set the <span class="text-danger">width</span> of the progress bar.<br><br>
+                    
+                Use the CSS <span class="text-danger">height</span> property to change the height of the progress. Note that you must set the same height for the progress container and the progress bar.</p>
+            </div>
+            
+            <div class="col-md-5 highlight bl">
+                
+                <p class="lead lead2">
+                <strong>Colored Progress Bars</strong><br>
+                The contextual classes can be used with progress bars color are not working, instead use <span class="text-danger">.bg-success | primary | danger | warning or info</span>: <br><br>
+                
+                <strong>Striped Progress Bars</strong><br>
+                Add class <span class="text-danger">.progress-bar-striped</span> to add stripes to the progress bars: (2<sup>nd</sup> div). <br><br>
+                
+                <strong>Animated Progress Bar</strong> <br>
+                Add class <span class="text-danger">.progress-bar-animated</span> to add animation to the progress bars: (2<sup>nd</sup> div). <br><br>
+                    
+                <strong>Stacked Progress Bars</strong><br>
+                Create a stacked progress bar by placing multiple bars into the same <span class="text-danger">&lt;div class="progress"></span></p>
+            </div>
+        </div>
+        
+        <h1 class="display-4">Tables</h1>
+        <div class="row">
+            <div class="col-md-7 highlight">
+                <table class="table table-striped table-bordered table-hover my-4">
+                    <thead class="thead-dark">
+                        <tr>
+                            <th>#</th>
+                            <th>Name</th>
+                            <th>Age</th>
+                            <th>Country</th>
+                        </tr>
+                    </thead>
+                    
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>Mohamed</td>
+                            <td>20</td>
+                            <td>Somalia</td>
+                        </tr>
+                        
+                        <tr>
+                            <td>2</td>
+                            <td>Ahmed</td>
+                            <td>22</td>
+                            <td>USA</td>
+                        </tr>
+                        
+                        <tr>
+                            <td>3</td>
+                            <td>Fatuma</td>
+                            <td>19</td>
+                            <td>England</td>
+                        </tr>
+                        
+                        <tr>
+                            <td>4</td>
+                            <td>Hassan</td>
+                            <td>23</td>
+                            <td>France</td>
+                        </tr>
+                        
+                        <tr>
+                            <td>5</td>
+                            <td>Zakaria</td>
+                            <td>18</td>
+                            <td>Belgium</td>
+                        </tr>
+                    </tbody>
+                </table>
+                
+                <br>
+                <br>
+                
+                <p class="lead lead2">The <span class="text-danger">.table-dark</span> class adds a black background to the table.
+                <br><br>
+                    
+                <strong><i class="fa fa-lightbulb-o fa-lg mr-2"></i>Tip:</strong> Combine <span class="text-danger">.table-dark</span> and <span class="text-danger">.table-striped</span> to create a dark, striped table. <br><br>
+                    
+                The <span class="text-danger">.thead-dark</span> class adds a black background to table headers, and the <span class="text-danger">.thead-light</span> class adds a grey background to table headers.</p>
+            </div>
+            
+            <div class="col-md-5 highlight bl">
+                <p class="lead lead2">The <span class="text-danger">.table</span> class adds basic styling to a table. <br><br>
+                
+                The <span class="text-danger">.table-striped</span> class adds zebra-stripes to a table. <br><br>
+                
+                The <span class="text-danger">.table-bordered</span> class adds borders on all sides of the table and cells. <br><br>
+                    
+                The <span class="text-danger">.table-hover</span> class adds a hover effect (grey background color) on table rows. <br><br>
+                    
+                Contextual classes can be used to color table rows (<span class="text-danger">&lt;tr></span>) or table cells (<span class="text-danger">&lt;td></span>). <br>
+                The contextual classes that can be used are: <span class="text-danger">.table-primary | success | active</span>... <br><br>
+                
+                The <span class="text-danger">.table-responsive</span> class creates a responsive table that will scroll horizontally on small devices. <br>
+                
+                (Add a &lt;div> with class <span class="text-danger">.table-responsive</span> around the table).</p>
+            </div>
+        </div>
+        
+    <br>
+    <br>
+        
+    <!-- ===== **** ===== **** ===== ===== **** ===== -->
+                    <!-- PAGINATION -->
+    <!-- ===== **** ===== **** ===== ===== **** ===== -->
+        
+        <h1 class="display-4">Pagination</h1>
+        <div class="row">
+            <div class="col-md-7 highlight">
+                <nav class="my-4">
+                    <ul class="pagination">
+                        <li class="page-item">
+                            <a class="page-link" href="#">Previous</a>
+                        </li>
+                        
+                        <li class="page-item">
+                            <a class="page-link" href="#">1</a>
+                        </li>
+                        
+                        <li class="page-item">
+                            <a class="page-link" href="#">2</a>
+                        </li>
+                        
+                        <li class="page-item active">
+                            <a class="page-link" href="#">3</a>
+                        </li>
+                        
+                        <li class="page-item">
+                            <a class="page-link" href="#">4</a>
+                        </li>
+                        
+                        <li class="page-item">
+                            <a class="page-link" href="#">5</a>
+                        </li>
+                        
+                        <li class="page-item">
+                            <a class="page-link" href="#">Next</a>
+                        </li>
+                    </ul>
+                </nav>
+                
+                
+    <!-- PAGINATION WITH ARROWS -->
+                <nav class="my-4">
+                    <ul class="pagination">
+                        <li class="page-item">
+                            <a class="page-link" href="#">
+                                <span><i class="fa fa-chevron-left fa-lg"></i></span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+                        </li>
+                        
+                        <li class="page-item">
+                            <a class="page-link" href="#">1</a>
+                        </li>
+                        
+                        <li class="page-item active">
+                            <a class="page-link" href="#">2</a>
+                        </li>
+                        
+                        <li class="page-item">
+                            <a class="page-link" href="#">3</a>
+                        </li>
+                        
+                        <li class="page-item">
+                            <a class="page-link" href="#">4</a>
+                        </li>
+                        
+                        <li class="page-item">
+                            <a class="page-link" href="#">5</a>
+                        </li>
+                        
+                        <li class="page-item">
+                            <a class="page-link" href="#">6</a>
+                        </li>
+                        
+                        <li class="page-item">
+                            <a class="page-link" href="#">7</a>
+                        </li>
+                        
+                        <li class="page-item">
+                            <a class="page-link" href="#">
+                                <span><i class="fa fa-chevron-right fa-lg"></i></span>
+                                <span class="sr-only">Next</span>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+                
+                <br>
+    <!-- BREAD CRUMB -->
+                <h1 class="display-4">Bread Crumb</h1>
+                <ul class="breadcrumb">
+                    <li class="breadcrumb-item">
+                        <a href="#"><i class="fa fa-home fa-lg"></i></a>
+                    </li>
+                    
+                    <li class="breadcrumb-item">
+                        <a href="#">Users</a>
+                    </li>
+                    
+                    <li class="breadcrumb-item">
+                        <a href="#">Gallery</a>
+                    </li>
+                    
+                    <li class="breadcrumb-item">
+                        <a href="#">Files</a>
+                    </li>
+                    
+                    <li class="breadcrumb-item active">
+                        <a href="#">Account</a>
+                    </li>
+                </ul>
+                
+                <p class="lead lead2"><strong>Breadcrumbs</strong> <br>
+                The <span class="text-danger">.breadcrumb </span>and <span class="text-danger">.breadcrumb-item</span> classes indicates the current page's location within a navigational hierarchy.</p>
+            </div>
+            
+            <div class="col-md-5 highlight bl">
+                <p class="lead lead2">To create a basic pagination, add the <span class="text-danger">.pagination</span> class to an <span class="text-danger">&lt;ul></span> element. Then add the <span class="text-danger">.page-item</span> to each <span class="text-danger">&lt;li></span> element and a <span class="text-danger">.page-link</span> class to each link inside the <span class="text-danger">&lt;li></span>:
+                
+                Add the <span class="text-danger"> .active</span> class to the <span class="text-danger">&lt;li></span> to hightlight the current page. <br><br>
+                    
+                Use <span class="text-danger"> .pagination-lg | sm</span> for larger blocks or smaller blocks. <br><br>
+                    
+                Use <span class="text-danger">justify-content-center | end</span> to change the alignment of the pagination.</p>
+            </div>
+        </div>
+        
+    </div>
+    
+    
+  
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  <!-- ===== **** ===== **** ===== ===== **** ===== -->
+                    <!-- END -->
+  <!-- ===== **** ===== **** ===== ===== **** ===== -->
+    
+  <div style="margin-top:500px;"></div>  
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
